@@ -1,3 +1,11 @@
-Rhymes found for intermediate(IH2 N T ER0 M IY1 D IY0 IH0 T):
-	[3]	BALLIET: deque(['IY0', 'IH0', 'T'])
-	[3]	INAPPROPRIATE: deque(['IY0', 'IH0', 'T'])
+Rhymes found for sloth(S L OW1 TH):
+	[3]	LOATH: (L OW1 TH)
+	[2]	OATH: (OW1 TH)
+	[2]	QUOTH: (OW1 TH)
+	[2]	TROTH: (OW1 TH)
+	[2]	BOTH: (OW1 TH)
+	[2]	GROWTH: (OW1 TH)
+	[2]	GOETHE: (OW1 TH)
+	[2]	NOETH: (OW1 TH)
+	[2]	OLD-GROWTH: (OW1 TH)
+	[2]	ROATH: (OW1 TH)

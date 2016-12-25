@@ -62,7 +62,7 @@ def main():
             if word.upper() not in rhyme and '(' not in rhyme:
                 print('\t[{}]\t{}: {}'.format(len(rhyming_words[rhyme]),
                                               rhyme,
-                                              rhyming_words[rhyme]),
+                                              '(' + ' '.join(rhyming_words[rhyme])) + ')',
                                        file=rhymes)
     print('Done! Check rhymes.txt')
 
