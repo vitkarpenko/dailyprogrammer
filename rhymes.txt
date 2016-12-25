@@ -1,0 +1,3 @@
+Rhymes found for intermediate(IH2 N T ER0 M IY1 D IY0 IH0 T):
+	[3]	BALLIET: deque(['IY0', 'IH0', 'T'])
+	[3]	INAPPROPRIATE: deque(['IY0', 'IH0', 'T'])
