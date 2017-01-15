@@ -5,8 +5,8 @@ import string
 
 
 def load_data():
-    with open(os.path.join('data', 'cmudict.txt'), encoding='latin-1') as cmudict, \
-         open(os.path.join('data', 'phonemes.txt')) as phonemes:
+    with open(os.path.join('data', '263_cmudict.txt'), encoding='latin-1') as cmudict, \
+         open(os.path.join('data', '263_phonemes.txt')) as phonemes:
         words_pronunciation = {}
         for line in cmudict:
             if not line.startswith(tuple(string.punctuation)):
