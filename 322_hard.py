@@ -1,9 +1,9 @@
+from threading import Thread
 import argparse
 import os
-import socket
 import random
+import socket
 import sys
-from threading import Thread
 
 
 HOSTNAME = 'localhost'
