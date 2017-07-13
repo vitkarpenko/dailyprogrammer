@@ -74,11 +74,8 @@ class HTTPHandler():
         ).encode('utf8')
 
     def generate_header_file(self, file_path):
-        print(file_path)
         file_name, extension = os.path.splitext(file_path)
-        print(extension)
         content_type = self.get_content_type(extension)
-        print(content_type)
         return (
             self.generate_header(200)
             + "\r\nContent-Type: " + content_type + "\r\n\r\n"
@@ -103,7 +100,6 @@ class HTTPHandler():
         with open(self.path + file_path, 'rb') as requested_file:
             content = requested_file.read()
 
-        print(self.generate_header_file(file_path).encode('utf8') + content + '\r\n'.encode('utf8'))
         return self.generate_header_file(file_path).encode('utf8') + content + '\r\n'.encode('utf8')
 
         
