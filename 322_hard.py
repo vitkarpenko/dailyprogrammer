@@ -70,7 +70,8 @@ class HTTPHandler():
         return (
             self.generate_header(status_code)
             + "\r\nContent-Type: text/html\r\n"
-              "\r\n<html><head></head><body><h1>{:} {:}</h1></body></html>\r\n".format(status_code, self.status_codes[status_code])
+              "\r\n<html><head></head><body><h1>{:} {:}</h1></body></html>\r\n"
+              .format(status_code, self.status_codes[status_code])
         ).encode('utf8')
 
     def generate_header_file(self, file_path):
